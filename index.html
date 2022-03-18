@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <!-- Primary Meta Tags -->
+<title>Virtual piano</title>
+<meta name="title" content="Virtual piano">
+<meta name="description" content="Just for fun">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rolling-scopes-school.github.io/manovik-JSFE2021Q1/virtual-piano/">
+<meta property="og:title" content="Virtual piano">
+<meta property="og:description" content="Just for fun">
+<meta property="og:image" content="./img/screenshot.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://rolling-scopes-school.github.io/manovik-JSFE2021Q1/virtual-piano/">
+<meta property="twitter:title" content="Virtual piano">
+<meta property="twitter:description" content="Just for fun">
+<meta property="twitter:image" content="./img/screenshot.png">
+</head>
+
+<body>
+  <h1>Virtual Piano</h1>
+  <div class="wrapper">
+    <div class="style-toggler toggler">
+      <button class="style-toggler__btn t-btn active" data-view="note">Notes</button>
+      <button class="style-toggler__btn t-btn" data-view="char">Letters</button>
+    </div>
+
+    <div class="sound-toggler toggler">
+      <button class="sound-toggler__btn t-btn active" data-sound="Soft">Soft</button>
+      <button class="sound-toggler__btn t-btn" data-sound="Hard">Hard</button>
+    </div>
+
+    <div class="view-toggler toggler">
+      <button class="t-btn" id="nextBgBtn">next bg</button>
+      <button class="t-btn" id="fullScreenBtn">full screen</button>
+    </div>
+    <div class="piano__back"></div>
+    <button class="t-btn" id="showAddMenu">+</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
